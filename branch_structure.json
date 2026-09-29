@@ -1,0 +1,18 @@
+{
+  "default_branch": "implementation-drips",
+  "branches": [
+    "fix/indexer-events-per-page-memory-bound",
+    "implementation-drips",
+    "origin"
+  ],
+  "parent": {
+    "fix/indexer-events-per-page-memory-bound": "implementation-drips",
+    "implementation-drips": null,
+    "origin": "implementation-drips"
+  },
+  "order": [
+    "implementation-drips",
+    "fix/indexer-events-per-page-memory-bound",
+    "origin"
+  ]
+}

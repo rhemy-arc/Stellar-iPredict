@@ -29,9 +29,6 @@ oracle/dist/
 infra/backups/
 
 # ── Environment & Secrets ──────────────────────────────────────────────────────
-.env
-.env.production
-.env.local
 .env.*.local
 *.pem
 .deploy.env
@@ -39,7 +36,6 @@ deploy-output.json
 deploy-mainnet-output.json
 
 # ── IDE / Editor ───────────────────────────────────────────────────────────────
-.vscode/
 !.vscode/settings.json
 !.vscode/extensions.json
 .idea/
@@ -64,3 +60,4 @@ yarn-error.log*
 
 # Coverage output
 coverage/
+config.bat
